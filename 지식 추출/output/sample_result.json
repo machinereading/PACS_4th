@@ -1,0 +1,15 @@
+[
+	{
+		"filename": "sample.txt",
+		"triples": {
+			"p_LM": 1,
+			"s_LM": 1,
+			"p_PLAD": 3,
+			"s_PLAD": 1,
+			"p_PLCX": 1,
+			"s_PLCX": 1,
+			"p_PRCA": 2,
+			"s_PRCA": 2
+		}
+	}
+]

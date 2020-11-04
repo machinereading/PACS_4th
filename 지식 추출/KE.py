@@ -271,7 +271,7 @@ def measure(input_dir, output_path):
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
-	parser.add_argument("-input_dir", default="./input")
+	parser.add_argument("-input_dir", default="./test")
 	parser.add_argument("-output_path", default="./output/sample_result.json")
 
 	args = parser.parse_args()

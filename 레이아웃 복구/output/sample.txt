@@ -1,0 +1,24 @@
+CT, Coronary Artery 20161122 20161130 09:57
+* Clinical information: chest pain
+1. Excellent Good image quality to assess coronary arteries.
+2. Coronary artery status:
+Segment stenosis degree length plaque subtype etc.
+pLAD minimal < 10 mm non-calcified
+LM, pLCx minimal < 10 mm calcified
+pRCA mild < 10 mm mixed
+
+3. Other coronary findings
+1) Right coronary artery dominant system.
+2) Anatomic variation or anomaly of coronary artery:
+- Coronary artery fistula.
+4. Other findings:
+- Bronchiectasis, RLL and left lingular division.
+Calcium Score; Agatston score: 41.8 Calcium mass: 8.15 mg CaHA
+
+
+10
+4.6% 3.61 (1.96-6.65) Definite, at Mild or Minimal least mild coronary stenosis atherosclerotic likely plaque burden 100
+100 Definite, at Nonobstructive least moderate CAD highly atherosclerotic likely, although 6.2% 7.73 (4.13-14.47) plaque burden obstructive disease possible
+300 400
+Extensive High likelihood atherosclero- > 90%) of at 11.2% 9.67 (5.20-17.98) tic plaque least 1 "signi- burden stenosis ficant" coronary
+(†) (‡)
