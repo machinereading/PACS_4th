@@ -1,0 +1,42 @@
+CT, Coronary Artery + Aortic Dissection           	20161130 20161130 19:56
+
+*
+Clinical information : Severe AS, TAVI w/u.
+
+1. Aortic valve
+  - Valve morphology: tricuspid valve with thickening and calcifications causing opening limitation
+  - Systolic Function: severe opening limitation (0.61 cm^2)
+
+2. Dimension of aortic root profile view (mid-systolic phase):
+  - Annulus diameter: 26.7 x 21.3 mm
+            perimeter: 79.2 mm
+            area: 476 mm2
+  - Annulus to LCA: 1.1 cm
+  - Annulus to RCA: 1.5 cm
+  - Ascending aorta tubular portion: 3.5 cm
+
+3. Coronary artery disease:
+----------------------------------------------------------------------------
+Segment       stenosis degree        lesion length       plaque
+----------------------------------------------------------------------------
+p,mRCA            mild                 < 10 mm          calcified
+
+pLAD             severe                  12 mm            mixed
+mLAD              mild                 < 10 mm          calcified
+
+p,dLCX            mild                 < 10 mm            mixed
+----------------------------------------------------------------------------
+ - Left coronary dominant system.
+ <Stenosis degree> Minimal: <30%, Mild: 30-49%, Moderate: 50-69%, Severe: >70%
+
+5. Coronary anomaly: none
+
+6. Aorto-iliac diameters
+ - Infrarenal abdominal aorta: 1.3 cm
+ - Right/left common iliac artery: 0.8 cm / 0.7 cm
+ - Right/left external iliac artery: 0.7 cm / 0.7 cm
+ - Right/left common femoral artery: 0.6 cm / 0.5 cm
+
+7. Extracoronary findings:
+ - Diffuse mild atherosclerosis of the aorta and both iliofemoral arteries.
+ - Several both renal cysts.

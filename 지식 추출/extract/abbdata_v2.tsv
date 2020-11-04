@@ -1,0 +1,71 @@
+segment	D1	D1
+segment	D2	D2
+segment	LM	LM
+segment	pLM	LM
+segment	mLM	LM
+segment	dLM	LM
+segment	OM1	OM1
+segment	OM2	OM2
+segment	RI	RI
+segment	PDA	RPDA	LPDA
+segment	PLB	RPLB	LPLB
+segment	pRCA	pRCA
+segment	mRCA	mRCA
+segment	dRCA	dRCA
+segment	pmRCA	pRCA	mRCA
+segment	p-mRCA	pRCA	mRCA
+segment	p,mRCA	pRCA	mRCA
+segment	pdRCA	pRCA	dRCA
+segment	p-dRCA	pRCA	dRCA
+segment	p,dRCA	pRCA	dRCA
+segment	mdRCA	mRCA	dRCA
+segment	m-dRCA	mRCA	dRCA
+segment	m,dRCA	mRCA	dRCA
+segment	pmdRCA	pRCA	mRCA	dRCA
+segment	p-m-dRCA	pRCA	mRCA	dRCA
+segment	p,m,dRCA	pRCA	mRCA	dRCA
+segment	pLAD	pLAD
+segment	mLAD	mLAD
+segment	dLAD	dLAD
+segment	pmLAD	pLAD	mLAD
+segment	p-mLAD	pLAD	mLAD
+segment	p,mLAD	pLAD	mLAD
+segment	pdLAD	pLAD	dLAD
+segment	p-dLAD	pLAD	dLAD
+segment	p,dLAD	pLAD	dLAD
+segment	mdLAD	mLAD	dLAD
+segment	m-dLAD	mLAD	dLAD
+segment	m,dLAD	mLAD	dLAD
+segment	pmdLAD	pLAD	mLAD	dLAD
+segment	p-m-dLAD	pLAD	mLAD	dLAD
+segment	p,m,dLAD	pLAD	mLAD	dLAD
+segment	pLCX	pLCX
+segment	mLCX	mLCX
+segment	dLCX	dLCX
+segment	pmLCX	pLCX	mLCX
+segment	p-mLCX	pLCX	mLCX
+segment	p,mLCX	pLCX	mLCX
+segment	pdLCX	pLCX	dLCX
+segment	p-dLCX	pLCX	dLCX
+segment	p,dLCX	pLCX	dLCX
+segment	mdLCX	mLCX	dLCX
+segment	m-dLCX	mLCX	dLCX
+segment	m,dLCX	mLCX	dLCX
+segment	pmdLCX	pLCX	mLCX	dLCX
+segment	p-m-dLCX	pLCX	mLCX	dLCX
+segment	p,m,dLCX	pLCX	mLCX	dLCX
+stenosis_degree	normal	normal
+stenosis_degree	minimal	minimal
+stenosis_degree	mild	mild
+stenosis_degree	moderate	moderate
+stenosis_degree	severe	severe
+stenosis_degree	occlusion	occlusion
+stenosis_degree	total	occlusion
+stenosis_degree	uninterpretable	uninterpretable
+lesion_length	discrete	discrete
+lesion_length	tubular	tubular
+lesion_length	diffuse	diffuse
+plaque_type	calcified	calcified
+plaque_type	noncalcified	noncalcified
+plaque_type	non-calcified	noncalcified
+plaque_type	mixed	mixed

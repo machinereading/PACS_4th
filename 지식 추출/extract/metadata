@@ -1,0 +1,50 @@
+segment	RCA
+segment	LAD
+segment	LCX
+
+segment	pRCA
+segment	mRCA
+segment	dRCA
+
+segment	LM
+segment	pLAD
+segment	mLAD
+segment	dLAD
+segment	D1
+segment	D2
+
+segment	pLCX
+segment	mLCX
+segment	dLCX
+
+
+segment	OM
+segment	OM1
+segment	OM2
+segment	RI
+segment	RPDA
+segment	LPDA
+segment	RPLB
+segment	LPLB
+
+stenosis_degree	normal
+stenosis_degree	minimal
+stenosis_degree	mild
+stenosis_degree	moderate
+stenosis_degree	severe
+stenosis_degree	occlusion
+stenosis_degree	uninterpretable
+
+stent_stenosis_degree	no stenosis
+stent_stenosis_degree	mild stenosis
+stent_stenosis_degree	significant stenosis
+stent_stenosis_degree	occlusion
+stent_stenosis_degree	uninterpretable
+
+lesion_length	discrete
+lesion_length	tubular
+lesion_length	diffuse
+
+plaque_type	calcified
+plaque_type	noncalcified
+plaque_type	mixed
