@@ -153,9 +153,9 @@ def detect_error(text, error_type):
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='Detect natural language errors.')
-	parser.add_argument('--input_dir', type=str, default='./input/')
-	parser.add_argument('--output_dir', type=str, default='./output/')
-	parser.add_argument('--error_type', type=str, help='error type of radiology findings')
+	parser.add_argument('-input_dir', type=str, default='./input/')
+	parser.add_argument('-output_dir', type=str, default='./output/')
+	parser.add_argument('-error_type', type=str, default='all', help='error type of radiology findings')
 
 	args = parser.parse_args()
 	print("Start error_detection_v1")

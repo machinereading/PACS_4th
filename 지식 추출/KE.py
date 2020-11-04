@@ -231,19 +231,20 @@ def format_unity(triples):
 	vessels = ['PRCA', 'MRCA', 'DRCA', 'PLAD', 'MLAD', 'DLAD', 'PLCX', 'DLCX', 'RPDA', 'LPDA', 'RPLB', 'LPLB', 'LM', 'D1', 'D2', 'OM1', 'OM2', 'RI']
 	stenosis_mapping = {"normal": 0, "minimal": 1, "mild": 2, "moderate": 3, "severe": 4, "occlusion": 5, "uninterpretable": 6}
 	plaque_mapping = {"no_plaque": 0, "calcified": 1, "mixed": 2, "noncalcified": 3}
-	output_dict = collections.defaultdict(int)
+	output_dict = collections.defaultdict(dict)
 
 	for triple in triples:
 		try:
 			s = triple[0]
 			p = triple[1]
 			o = triple[2]
-			if p == 'stenosis_degree':
-				output_dict['s_' + s.upper()] = stenosis_mapping[o]
-			elif p == 'plaque_type':
-				output_dict['p_' + s.upper()] = plaque_mapping[o]
-			else:
-				continue
+			output_dict[s.upper()][p] = o
+			# if p == 'stenosis_degree':
+			# 	output_dict['s_' + s.upper()] = stenosis_mapping[o]
+			# elif p == 'plaque_type':
+			# 	output_dict['p_' + s.upper()] = plaque_mapping[o]
+			# else:
+			# 	continue
 		except Exception as e:
 			print(e)
 			print(triple)
@@ -257,10 +258,27 @@ def measure(input_dir, output_path):
 	for filename in filenames:
 		with open(os.path.join(input_dir, filename), 'r', encoding='utf-8') as f:
 			content = f.read()
-			predict_triple = format_unity(process(content)[1])
+			info_list, triple_list = process(content)
+			print(info_list)
+			date = ""
+			code = ""
+			lesion_highriskplq_flag = False
+			for e in info_list:
+				if "date" == e[0]:
+					date = e[1]
+				elif "code" == e[0]:
+					code = e[1]
+				elif "lesion_highriskplq_flag" == e[0]:
+					lesion_highriskplq_flag = e[1]
+
+			print(triple_list)
+			predict_triple = format_unity(triple_list)
 			output.append({
 				"filename": filename,
-				"triples": predict_triple
+				"date": date,
+				"code": code,
+				"lesion_highriskplq_flag": lesion_highriskplq_flag,
+				"lesions": predict_triple
 			})
 			print(filename, predict_triple)
 
@@ -271,7 +289,7 @@ def measure(input_dir, output_path):
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
-	parser.add_argument("-input_dir", default="./test")
+	parser.add_argument("-input_dir", default="./input")
 	parser.add_argument("-output_path", default="./output/sample_result.json")
 
 	args = parser.parse_args()
