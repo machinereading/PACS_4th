@@ -5,30 +5,18 @@
 		"code": "native-CA",
 		"lesion_highriskplq_flag": "False",
 		"lesions": {
-			"DLCX": {
-				"plaque_type": "mixed",
-				"stenosis_degree": "mild"
-			},
-			"MLAD": {
-				"plaque_type": "calcified",
-				"stenosis_degree": "mild"
-			},
-			"MRCA": {
-				"plaque_type": "calcified",
-				"stenosis_degree": "mild"
-			},
-			"PLAD": {
-				"plaque_type": "mixed",
-				"stenosis_degree": "severe"
-			},
-			"PLCX": {
-				"plaque_type": "mixed",
-				"stenosis_degree": "mild"
-			},
-			"PRCA": {
-				"plaque_type": "calcified",
-				"stenosis_degree": "mild"
-			}
+			"p_DLCX": 2,
+			"s_DLCX": 2,
+			"p_MLAD": 1,
+			"s_MLAD": 2,
+			"p_MRCA": 1,
+			"s_MRCA": 2,
+			"p_PLAD": 2,
+			"s_PLAD": 4,
+			"p_PLCX": 2,
+			"s_PLCX": 2,
+			"p_PRCA": 1,
+			"s_PRCA": 2
 		}
 	}
 ]

@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8eae86c-0489-475f-8766-3b523f616781" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/지식 추출/IE_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/지식 추출/bert_ie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PACS_4th.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PACS_4th.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/레이아웃 복구 예시.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/레이아웃.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/오류 감지/error_detection_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/오류 감지/error_detection_v1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/지식 추출/KE.py" beforeDir="false" afterPath="$PROJECT_DIR$/지식 추출/KE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/레이아웃 복구/util_kaist_pacs.py" beforeDir="false" afterPath="$PROJECT_DIR$/레이아웃 복구/layout_restore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/오류 감지/output/date_output.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/오류 감지/output/date_output.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/오류 감지/output/typing_output.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/오류 감지/output/typing_output.tsv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/지식 추출/output/sample_result.json" beforeDir="false" afterPath="$PROJECT_DIR$/지식 추출/output/sample_result.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="743">
-                <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <first_editor relative-caret-position="342">
+                <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -32,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/오류 감지/error_detection_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-439">
-              <caret line="137" column="40" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="40" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -41,50 +45,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/오류 감지/output/date_output.tsv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-              <column index="0" width="100" />
-              <column index="1" width="100" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/레이아웃 복구/layout_restore.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="143" column="22" lean-forward="true" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/오류 감지/input/date_input.tsv">
-          <provider selected="true" editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-              <column index="0" width="100" />
-              <column index="1" width="100" />
+        <entry file="file://$PROJECT_DIR$/지식 추출/bert_ie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="112" column="21" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/오류 감지/input/typing_input.tsv">
-          <provider selected="true" editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-              <column index="0" width="100" />
-              <column index="1" width="100" />
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
-          <provider editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/오류 감지/output/typing_output.tsv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-              <column index="0" width="100" />
-              <column index="1" width="100" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        <entry file="file://$PROJECT_DIR$/지식 추출/IE_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="297" selection-start-line="297" selection-end-line="297" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#9389#12845#0" />
+                <element signature="e#12873#13370#0" />
+                <element signature="e#13397#14167#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +96,8 @@
     <findStrings>
       <find>meaninglessness_phrase</find>
       <find>bar_token</find>
+      <find>anoyalm</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,21 +110,15 @@
         <option value="$PROJECT_DIR$/레이아웃 복구/input/sample.txt" />
         <option value="$PROJECT_DIR$/레이아웃 복구/util_kaist_pacs.py" />
         <option value="$PROJECT_DIR$/지식 추출/test/sample.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/지식 추출/KE.py" />
-        <option value="$PROJECT_DIR$/오류 감지/error_detection_v1.py" />
         <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/PACS_4th.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
+        <option value="$PROJECT_DIR$/ke/KE.py" />
+        <option value="$PROJECT_DIR$/ke/input/sample.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/지식 추출/bert_ie.py" />
+        <option value="$PROJECT_DIR$/지식 추출/IE_v2.py" />
+        <option value="$PROJECT_DIR$/오류 감지/error_detection_v1.py" />
+        <option value="$PROJECT_DIR$/레이아웃 복구/layout_restore.py" />
       </list>
     </option>
   </component>
@@ -141,30 +138,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="PACS_4th" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PACS_4th" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PACS_4th" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PACS_4th" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PACS_4th" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PACS_4th" type="462c0819:PsiDirectoryNode" />
-              <item name="오류 감지" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PACS_4th" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PACS_4th" type="462c0819:PsiDirectoryNode" />
-              <item name="오류 감지" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PACS_4th" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PACS_4th" type="462c0819:PsiDirectoryNode" />
-              <item name="오류 감지" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="레이아웃 복구" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/지식 추출/IE_v2.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -184,10 +164,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PACS\PACS_4th\레이아웃 복구" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PACS\github\지식 추출" />
+      <recent name="D:\PACS\PACS_4th" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -202,7 +187,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.error_detection_v1">
+  <component name="RunManager" selected="Python.util_kaist_pacs">
+    <configuration name="IE_v2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PACS_4th" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\swrc-koon\Anaconda3\envs\pacs_github\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/지식 추출" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/지식 추출/IE_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="KE (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PACS_4th" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ke" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ke/KE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="KE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PACS_4th" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,7 +289,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/레이아웃 복구/util_kaist_pacs.py" />
+      <option name="SCRIPT_NAME" value="D:\PACS\github\레이아웃 복구\layout_restore.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,11 +298,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.IE_v2" />
+      <item itemvalue="Python.error_detection_v1" />
+      <item itemvalue="Python.KE" />
+      <item itemvalue="Python.KE (1)" />
+      <item itemvalue="Python.util_kaist_pacs" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.error_detection_v1" />
-        <item itemvalue="Python.KE" />
         <item itemvalue="Python.util_kaist_pacs" />
+        <item itemvalue="Python.error_detection_v1" />
+        <item itemvalue="Python.KE (1)" />
+        <item itemvalue="Python.KE" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +325,9 @@
       <option name="presentableId" value="Default" />
       <updated>1604464688975</updated>
       <workItem from="1604464693262" duration="6211000" />
-      <workItem from="1604476377165" duration="3875000" />
+      <workItem from="1604476377165" duration="7168000" />
+      <workItem from="1604644595813" duration="3849000" />
+      <workItem from="1604749872545" duration="2694000" />
     </task>
     <task id="LOCAL-00001" summary="check">
       <created>1604476904825</created>
@@ -304,23 +343,30 @@
       <option name="project" value="LOCAL" />
       <updated>1604477005201</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="check">
+      <created>1604483163662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604483163662</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10086000" />
+    <option name="totallyTimeSpent" value="19922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37201735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -348,6 +394,10 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PACS_4th$KE.coverage" NAME="KE Coverage Results" MODIFIED="1604481636035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/지식 추출" />
     <SUITE FILE_PATH="coverage/PACS_4th$error_detection_v1.coverage" NAME="error_detection_v1 Coverage Results" MODIFIED="1604482269374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/오류 감지" />
+    <SUITE FILE_PATH="coverage/github$error_detection_v1.coverage" NAME="error_detection_v1 Coverage Results" MODIFIED="1604752568103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/오류 감지" />
+    <SUITE FILE_PATH="coverage/PACS_4th$KE__1_.coverage" NAME="KE (1) Coverage Results" MODIFIED="1604646085997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke" />
+    <SUITE FILE_PATH="coverage/github$IE_v2.coverage" NAME="IE_v2 Coverage Results" MODIFIED="1604752489826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/지식 추출" />
+    <SUITE FILE_PATH="coverage/github$util_kaist_pacs.coverage" NAME="util_kaist_pacs Coverage Results" MODIFIED="1604752676758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/레이아웃 복구" />
     <SUITE FILE_PATH="coverage/PACS_4th$util_kaist_pacs.coverage" NAME="util_kaist_pacs Coverage Results" MODIFIED="1604475373539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/레이아웃 복구" />
   </component>
   <component name="editorHistoryManager">
@@ -366,43 +416,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/레이아웃 복구/util_kaist_pacs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="159" column="42" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/지식 추출/KE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="282" column="43" selection-start-line="282" selection-start-column="43" selection-end-line="282" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/지식 추출/output/sample_result.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/지식 추출/input/sample.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/오류 감지/input/typing_input.tsv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/오류 감지/input/date_input.tsv">
+      <provider selected="true" editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="663" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/오류 감지/output/typing_output.tsv">
       <provider editor-type-id="csv-table-editor">
@@ -412,17 +453,69 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="114">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/오류 감지/error_detection_v1.py">
+    <entry file="file://$PROJECT_DIR$/ke/extract/metadata_v2.tsv" />
+    <entry file="file://$PROJECT_DIR$/ke/extract/abbdata_v2.tsv" />
+    <entry file="file://$PROJECT_DIR$/ke/output/sample_result.json" />
+    <entry file="file://$PROJECT_DIR$/ke/input/sample.txt" />
+    <entry file="file://$PROJECT_DIR$/ke/KE.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/지식 추출/KE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-439">
-          <caret line="137" column="40" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="40" />
+        <state relative-caret-position="-95">
+          <caret line="244" column="65" selection-start-line="244" selection-start-column="65" selection-end-line="244" selection-end-column="65" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/지식 추출/output/sample_result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/지식 추출/bert_ie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="112" column="21" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/지식 추출/IE_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#9389#12845#0" />
+            <element signature="e#12873#13370#0" />
+            <element signature="e#13397#14167#0" />
           </folding>
         </state>
       </provider>
@@ -436,31 +529,20 @@
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/오류 감지/input/typing_input.tsv">
-      <provider selected="true" editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
+    <entry file="file://$PROJECT_DIR$/오류 감지/error_detection_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/오류 감지/input/date_input.tsv">
-      <provider selected="true" editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="743">
-            <caret line="48" selection-start-line="48" selection-end-line="48" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/레이아웃 복구/layout_restore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="143" column="22" lean-forward="true" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
         </state>
       </provider>
     </entry>

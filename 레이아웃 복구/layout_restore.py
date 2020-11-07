@@ -140,7 +140,7 @@ def squeeze(input_list):
 	return_list = []
 	for x in input_list:
 		return_list.append(' '.join(x.split()))
-	print(return_list)
+	# print(return_list)
 	return return_list
 
 
