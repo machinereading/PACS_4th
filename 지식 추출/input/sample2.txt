@@ -1,0 +1,25 @@
+CT, Coronary Artery                               
+20161101 20161103 11:36
+
+*
+Clinical information: 
+Compared with 2012-01-04.
+
+1. Good image quality to assess coronary arteries.
+2. Coronary artery status:
+  - pRCA: minimal stenosis with mixed plaque: No change.
+  - pLAD and RI: minimal stenosis with mixed plaque.: increased number of calcified plaques with mild stenosis.
+  (minimal: <30%, mild: 30-49%, moderate: 50-69%, severe: >70%)
+3. Other coronary findings
+   1) Right coronary artery dominant system.
+   2) Anatomic variation or anomaly of coronary artery:
+    - RI: large.
+    - LCx: diminutive.
+    
+4. Other findings:
+ - Calcified mediastinal lymph nodes.
+ - Bronchiectasis of left lower lobe.
+-----------------------------------------------------------------------------
+Calcium Score;
+Agatston score: 54 -> 236.8
+
