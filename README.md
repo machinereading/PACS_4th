@@ -46,3 +46,9 @@
 를 입력하여 프로그램을 실행합니다.
 마지막으로 output 폴더 안의 각 파일에서 판독문마다 오류로 예상되는 단어, 날짜를 확인하실 수 있습니다.   
 
+## Publisher
+[Machine Reading Lab](http://mrlab.kaist.ac.kr/) @ KAIST
+## Contact
+Kuntae Kim. kuntaek@kaist.ac.kr
+## Acknowledgement
+This work was supported by the Industrial Strategic technology development program (10072064, Development of Novel Artificial Intelligence Technologies To Assist Imaging Diagnosis of Pulmonary, Hepatic, and Cardiac Diseases and Their Integration into Commercial Clinical PACS Platforms) funded by the Ministry of Trade Industry and Energy (MI, Korea)
