@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f8eae86c-0489-475f-8766-3b523f616781" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/지식 추출/IE_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/지식 추출/KE.py" beforeDir="false" afterPath="$PROJECT_DIR$/지식 추출/KE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/지식 추출/output/sample_result.json" beforeDir="false" afterPath="$PROJECT_DIR$/지식 추출/output/sample_result.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="667">
+                <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/지식 추출/IE_v2.py">
+        <entry file="file://$PROJECT_DIR$/지식 추출/KE.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="237" column="85" lean-forward="true" selection-start-line="237" selection-start-column="85" selection-end-line="237" selection-end-column="85" />
+              <caret line="237" column="85" selection-start-line="237" selection-start-column="85" selection-end-line="237" selection-end-column="85" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -37,17 +52,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/지식 추출/output/sample_result.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="608">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/지식 추출/bert_ie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="177" column="46" lean-forward="true" selection-start-line="177" selection-start-column="46" selection-end-line="177" selection-end-column="46" />
+            <state relative-caret-position="304">
+              <caret line="175" column="14" lean-forward="true" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="14" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -60,18 +75,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/지식 추출/KE.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-249">
-              <caret line="244" column="65" selection-start-line="244" selection-start-column="65" selection-end-line="244" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +100,6 @@
         <option value="$PROJECT_DIR$/레이아웃 복구/util_kaist_pacs.py" />
         <option value="$PROJECT_DIR$/지식 추출/test/sample.txt" />
         <option value="$PROJECT_DIR$/지식 추출/KE.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ke/KE.py" />
         <option value="$PROJECT_DIR$/ke/input/sample.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -106,6 +108,7 @@
         <option value="$PROJECT_DIR$/오류 감지/error_detection_v1.py" />
         <option value="$PROJECT_DIR$/레이아웃 복구/layout_restore.py" />
         <option value="$PROJECT_DIR$/지식 추출/lstm_ie.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -120,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,29 +136,10 @@
               <item name="github" type="462c0819:PsiDirectoryNode" />
               <item name="지식 추출" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="지식 추출" type="462c0819:PsiDirectoryNode" />
-              <item name="extract" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="지식 추출" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="지식 추출" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,29 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.IE_v2">
-    <configuration name="IE_v2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="PACS_4th" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\swrc-koon\Anaconda3\envs\pacs_github\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/지식 추출" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/지식 추출/IE_v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.KE">
     <configuration name="KE (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PACS_4th" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +192,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ke/KE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="KE" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PACS_4th" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\swrc-koon\Anaconda3\envs\pacs_github\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/지식 추출" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PACS\github\지식 추출\KE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,7 +289,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.IE_v2" />
+      <item itemvalue="Python.KE" />
       <item itemvalue="Python.error_detection_v1" />
       <item itemvalue="Python.KE" />
       <item itemvalue="Python.KE (1)" />
@@ -334,7 +319,8 @@
       <workItem from="1604644595813" duration="3849000" />
       <workItem from="1604749872545" duration="2955000" />
       <workItem from="1604837614663" duration="291000" />
-      <workItem from="1605415812466" duration="3727000" />
+      <workItem from="1605415812466" duration="4777000" />
+      <workItem from="1605525797818" duration="243000" />
     </task>
     <task id="LOCAL-00001" summary="check">
       <created>1604476904825</created>
@@ -364,17 +350,24 @@
       <option name="project" value="LOCAL" />
       <updated>1604752897470</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="샘플 추가">
+      <created>1605420386472</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605420386472</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24201000" />
+    <option name="totallyTimeSpent" value="25494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -403,7 +396,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="check" />
-    <option name="LAST_COMMIT_MESSAGE" value="check" />
+    <MESSAGE value="샘플 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="샘플 추가" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PACS_4th$KE.coverage" NAME="KE Coverage Results" MODIFIED="1604481636035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/지식 추출" />
@@ -496,37 +490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="342">
-            <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/지식 추출/KE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="244" column="65" selection-start-line="244" selection-start-column="65" selection-end-line="244" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/지식 추출/input/sample.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -543,16 +510,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/지식 추출/IE_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="237" column="85" lean-forward="true" selection-start-line="237" selection-start-column="85" selection-end-line="237" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/지식 추출/lstm_ie.py" />
     <entry file="file://$PROJECT_DIR$/지식 추출/input/sample2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -562,30 +520,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/지식 추출/output/sample_result.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/지식 추출/lstm_ie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1476#1572#0" />
-            <element signature="e#4131#5577#0" />
-          </folding>
+        <state relative-caret-position="608">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/지식 추출/bert_ie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="177" column="46" lean-forward="true" selection-start-line="177" selection-start-column="46" selection-end-line="177" selection-end-column="46" />
+        <state relative-caret-position="304">
+          <caret line="175" column="14" lean-forward="true" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="14" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/지식 추출/KE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="237" column="85" selection-start-line="237" selection-start-column="85" selection-end-line="237" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/지식 추출/KE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="237" column="85" selection-start-line="237" selection-start-column="85" selection-end-line="237" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/지식 추출/input/sample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="667">
+            <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
